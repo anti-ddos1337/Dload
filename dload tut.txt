@@ -1,0 +1,11 @@
+python3 dload.py /root/tcpdumps/ /root/ipreports/eth0 10000
+you change the directorys to whatever you want
+and eth0 to your interface
+and 10000 to the packet threshold you want
+
+install
+sudo apt-get update
+sudo apt install python3-pip
+sudo apt install tcpdump
+pip3 install psutil
+pip3 install dpkt
